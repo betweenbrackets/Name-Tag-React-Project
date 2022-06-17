@@ -8,7 +8,8 @@ import NameTag from "./NameTag.js";
 const App = () => (
   <div className="App">
     <h1>Name Tag Generator</h1>
-    <NameTag />
+    <NameTag name="Boethius" />
+    <NameTag name="Aristotle" />
   </div>
 );
 
